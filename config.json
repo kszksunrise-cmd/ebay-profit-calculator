@@ -1,0 +1,25 @@
+{
+  "shippingPatterns": {
+    "pattern1Name": "通常配送 (SpeedPAK等)",
+    "pattern1": [
+      { "label": "小型・軽量 (~500g)", "cost": 1200 },
+      { "label": "中型・標準 (~1kg)", "cost": 2100 },
+      { "label": "大型 (~2kg)", "cost": 3500 },
+      { "label": "特大 (~5kg)", "cost": 6800 }
+    ],
+    "pattern2Name": "クーリエ (FedEx/DHL)",
+    "pattern2": [
+      { "label": "Zone1 軽量 (~500g)", "cost": 2400 },
+      { "label": "Zone1 標準 (~1kg)", "cost": 3200 },
+      { "label": "Zone1 大型 (~2kg)", "cost": 4800 },
+      { "label": "Zone1 特大 (~5kg)", "cost": 8500 }
+    ]
+  },
+  "feeCategories": [
+    { "label": "カメラ・レンズ類 (約12.35% + 決済等)", "rate": 14.5 },
+    { "label": "釣り具・スポーツ用品 (約13.25% + 決済等)", "rate": 15.5 },
+    { "label": "おもちゃ・フィギュア (約13.25% + 決済等)", "rate": 15.5 },
+    { "label": "時計・ブランド品 (約15% + 決済等)", "rate": 17.2 },
+    { "label": "その他一般カテゴリー (標準15%)", "rate": 15.0 }
+  ]
+}
